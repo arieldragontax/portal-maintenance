@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dragon Tax — Service Unavailable</title>
+    <meta name="theme-color" content="#0f1724">
+    <style>
+      :root{--bg:#0f1724;--card:#0b1220;--accent:#6ee7b7;--muted:#9aa4b2}
+      html,body{height:100%;margin:0;font-family:Inter,Roboto,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071028 0%,#0f1724 100%);color:#e6eef6}
+      .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:48px}
+      .card{max-width:820px;width:100%;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);box-shadow:0 8px 30px rgba(2,6,23,0.6);border-radius:12px;padding:48px;backdrop-filter:blur(6px)}
+      .brand{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+      .logo{width:auto;height:64px;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:transparent}
+      .logo img{display:block;width:100%;height:100%;object-fit:cover}
+      h1{margin:6px 0 12px;font-size:26px;line-height:1.05}
+      p{margin:0 0 18px;color:var(--muted)}
+      .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+      .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
+      .btn-primary{background:linear-gradient(90deg,var(--accent),#60a5fa);color:#042022}
+      .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#d7e7f3}
+      .info{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}
+      .muted{color:var(--muted);font-size:14px}
+      footer{margin-top:22px;color:var(--muted);font-size:13px}
+      @media (max-width:520px){.card{padding:28px}.logo{width:52px;height:52px}}
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card" role="main" aria-labelledby="title">
+        <div class="brand">
+          <div class="logo"><img src="dtax.png" alt="Dragon Tax Logo"></div>
+          <!-- <div>
+            <div style="font-weight:700;font-size:14px">Dragon Tax</div>
+            <div class="muted" style="margin-top:2px">We're temporarily offline</div>
+          </div> -->
+        </div>
+
+        <h1 id="title">Sorry — we're temporarily unavailable</h1>
+        <p>Our hosting provider is experiencing an outage affecting this site. We're actively working to restore service as quickly as possible. Thank you for your patience.</p>
+
+        <div class="info">
+          <div class="muted">Need help or have questions? Email us:</div>
+          <div style="font-weight:600"><a href="mailto:tax@dragontax.com" style="color:var(--accent);text-decoration:none">tax@dragontax.com</a></div>
+        </div>
+
+        <footer>
+          We apologize for the inconvenience. If you need immediate assistance, please email us and include any relevant details.
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
